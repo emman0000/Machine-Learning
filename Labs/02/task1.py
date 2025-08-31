@@ -18,14 +18,14 @@ print("D1B columns: ",dfa.columns.tolist())
 df_comb = pd.merge(dfa, dfb, on = ['name', 'population','county'], how='inner')
 
 print("\n Combined Data: ")
-print("Shape of combined datasets: ",df_comb.shape)
+print("Final Records: ",df_comb.shape)
 print("Columns:" , df_comb.columns.tolist())
 
 #Creating a dataset by merging D1A and D1C 
 # Common column: County
 
-acComb = pd.merge(dfa, dfc, on='county', how='inner')
+acComb = pd.merge(dfa, dfc, on= 'county', how='inner')
 print("\nCombined DataFrame A and C: ")
-print('Shape: ', acComb.shape)
+print('Final Records: ', acComb.shape)
 print("Columns: ",acComb.columns.tolist())
 
