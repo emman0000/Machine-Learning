@@ -10,8 +10,8 @@ Train Decision Tree models using the following criteria and report the accuracy 
 
 | Model Type                    | Dataset1 Training Accuracy | Dataset1 Testing Accuracy | Dataset2 Training Accuracy | Dataset2 Testing Accuracy |
 |-------------------------------|----------------------------|---------------------------|----------------------------|---------------------------|
-| DT using gini (without pruning) |                            |                           |                            |                           |
-| DT using gini (with pruning)    |                            |                           |                            |                           |
+| DT using gini (without pruning) |                 -           |                           |                            |                           |
+| DT using gini (with pruning)    |              -              |                           |                            |                           |
 | DT using entropy (without pruning) |                         |                           |                            |                           |
 | DT using entropy (with pruning)  |                         |                           |                            |                           |
 
